@@ -8,3 +8,83 @@
     font-variation-settings:
       "slnt" 0;
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+  }
+
+  /* Frequently used Style */
+
+  .display-flex{
+    display: flex;
+  }
+
+  .navbtn-p{
+    align-items: center;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: rgb(230, 84, 60);
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+
+  .navbtn{
+    align-items: center;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  /* End */
+
+  body{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 52px;
+  }
+
+  /* Navbar Style */
+
+  .navbar{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+
+  .brand{
+    color: rgb(230, 84, 60);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .navbar-items{
+    padding: 3px;
+    border: 1px solid rgba(245, 245, 245, 0.26);
+    border-radius: 50px;
+  }
+
+  .navbar-items button{
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  /* Mobile View Menu Style */
+
+  .ham-menu{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 600;
+    display: none;
+  }
