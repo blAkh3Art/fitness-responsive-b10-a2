@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap");
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,6 +9,13 @@
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
+  }
+
+  .playwrite-cu-font {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
   }
 
   *{
@@ -41,7 +50,12 @@
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    cursor: pointer;
     
+  }
+
+  .border-style{
+    border: 1px solid rgba(245, 245, 245, 0.7);
   }
 
   /* End */
@@ -88,3 +102,106 @@
     font-weight: 600;
     display: none;
   }
+
+  /* Banner Section Style */
+
+  .banner{
+    align-items: center;
+    justify-content: space-between;
+    background-color: linear-gradient(90deg,rgb(90, 89, 89),rgba(88, 81, 81, 0.09)100%);
+  }
+
+  .banner-title{
+    font-size: 3.9rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .banner-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  .banner-btn{
+    margin-right: 38px;
+    cursor: pointer;
+  }
+
+  .banner-images{
+    position: relative;
+  }
+
+  .tutorial{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 70%;
+    left: -40%;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 59);
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .workout{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 28%;
+    left: 70%;
+  }
+
+  .tutorial-text p {
+    background-color: rgba(48, 48, 48, 0.54);
+  }
+  .fa-solid {
+    background-color: rgba(48, 48, 48, 0);
+  }
+  .text-350 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 5px;  
+  }
+
+  .text-500{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 5px;
+    
+  }
+
+  .video-tutorial {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  /* Banner Section Style End */

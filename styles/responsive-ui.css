@@ -17,10 +17,34 @@ Large Device: above 993 px  */
         display: block;
     }
 
+    .banner{
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .banner-title{
+        font-size: 2.9rem;
+        margin-top: 50px;
+    }
+
+    .banner-btn{
+        margin-right: 20px;
+    }
 
 
+    .tutorial{
+        width: 180px;
+        top: 45%;
+        left: 0;
+    }
 
+    .workout{
+        width: 180px;
+        left: 40%;
+    }
 
-
-
+    .banner-text{
+        max-width: 80%;
+    }
 }
