@@ -61,4 +61,21 @@ Large Device: above 993 px  */
         font-weight: 900;
         margin-bottom: 10px;
     }
+
+    .run-section{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 95%;
+        padding: 28px;
+    }
+
+    .run-title{
+        font-size: 2rem;
+    }
+
+    #run-btn{
+        font-size: 0.8rem;
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
