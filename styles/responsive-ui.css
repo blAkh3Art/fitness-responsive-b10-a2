@@ -30,21 +30,35 @@ Large Device: above 993 px  */
 
     .banner-btn{
         margin-right: 20px;
+        margin-bottom: 5px;
     }
 
 
     .tutorial{
-        width: 180px;
-        top: 45%;
-        left: 0;
+        width: 150px;
+        top: 65%;
+        left: 7%;
+
     }
 
     .workout{
-        width: 180px;
-        left: 40%;
+        width: 150px;
+        left: 60%;
+        top: 15%;
     }
 
     .banner-text{
         max-width: 80%;
+    }
+
+    .habit-card{
+        grid-template-columns: repeat(1,1fr);
+        gap: 28px;
+    }
+
+    .habit-title{
+        font-size: 1.8rem;
+        font-weight: 900;
+        margin-bottom: 10px;
     }
 }
